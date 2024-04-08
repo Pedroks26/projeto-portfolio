@@ -106,9 +106,11 @@ body{
     transform: scale(1.1);
 }
 
-.home .container-foto .foto{
+
+.home .container-foto .foto-sombra-interna{
     max-width: 450px;
     border-radius: 50%;
+
 }
 
 .home .container-foto img{
@@ -118,7 +120,7 @@ body{
 }
 
 .home .foto-sombra-interna{
-    background-image: linear-gradient(to right #18C063, #00EEA2);
+    background-image: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
